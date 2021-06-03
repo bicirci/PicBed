@@ -37,7 +37,6 @@ h3 {
 }
 h4 {
 	font-weight: 700;
-	text-transform: uppercase;
 	font-size: 1.1em;
 	line-height: 1.4;
 	margin: 10px 0 5px;
@@ -48,18 +47,21 @@ h5, h6 {
 }
 h5 {
 	font-weight: bold;
-	text-transform: uppercase;
 }
 h6 {
 	font-weight: normal;
 	color: #AAA;
 }
 img {
-	width: 100%;
+	/* width: 100%; */
+    zoom: 80%;
 	border-radius: 5px;
-	display: block;
+	/* display: block; */
 	margin-bottom: 15px;
 	height: auto;
+    max-width: 90%;
+    left:5%;
+    position: relative;
 }
 dl, ol, ul {
 	margin-top: 12px;
@@ -86,7 +88,7 @@ a:focus {
 blockquote {
 	font-size: 1em;
 	font-style: normal;
-	padding: 30px 38px;
+	padding: 30px 0px 5px 38px;
 	margin: 0 0 15px;
 	position: relative;
 	line-height: 1.8;
