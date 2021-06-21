@@ -26,8 +26,8 @@ pre[class*="language-"] {
 }
 */
 
-/* Code blocks */
-/* pre[class*="language-"] {
+/* Code blocks 
+ pre[class*="language-"] {
   padding: .8em;
   overflow: auto;
   border: 1px solid #ddd;
@@ -49,7 +49,7 @@ pre[class*="language"]
     line-height:2em;
     max-width:inherit;
     overflow:inherit;
-    padding: 30px 1.4em 10px 30px !important;
+    padding: 10px 1.4em 10px 30px !important;
     white-space:pre;
     
 }
